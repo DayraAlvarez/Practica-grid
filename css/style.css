@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+}
+ .row {
+   width: 100%;
+   overflow: hidden; /*Columnas flotan a la izquierda*/
+   margin-bottom: 3px;
+ }
+
+.col12 {
+  width: 100%;
+  background-color: #f7ea00;
+  text-align: center;
+  color: white;
+}
+
+.A {
+  height: 100px;
+  background-color: yellow;
+}
+
+.B {
+  height: 200px;
+  background-color: #34EAA9;
+}
+
+.C {
+  height: 100px;
+  background-color: #E486EA;
+}
+
+.margin-button {
+  margin-bottom: 3px;
+}
+
+
+@media (min-width: 992px) {
+  .col-md-8 {
+    width: 65%;
+    background-color: #34EAA9;
+    float: left; /*Se acomoden cajas a la izquierda segun device*/
+    margin-right: 2%;
+  }
+  .col-md-4 {
+    width: 33%;
+    background-color: #E486EA;
+    float: left;
+  }
+
+  .C {
+    height: 200px;
+  }
+}
